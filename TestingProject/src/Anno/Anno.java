@@ -26,14 +26,8 @@ class Anno {
 		}
 	}
 
-
-
 	public static void main(String[] args) throws Exception {
-		//TestAnno x = new TestAnno();
 		one();
 		
-
-	
-
 }
 }
