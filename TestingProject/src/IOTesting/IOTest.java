@@ -23,6 +23,7 @@ public class IOTest {
 			pw.println(c);
 		}
 		fl.close();
+		bite.close();
 		}
 		catch(IOException abc){
 			abc.printStackTrace();

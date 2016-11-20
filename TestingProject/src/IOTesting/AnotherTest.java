@@ -5,8 +5,8 @@ import java.io.*;
 public class AnotherTest {
 
 	public static void main(String[] args) {
-		try(BufferedReader buf = new BufferedReader(new InputStreamReader(new FileInputStream("Text.txt")))){
-			System.out.println("Read file Text.txt");
+		try(BufferedReader buf = new BufferedReader(new InputStreamReader(new FileInputStream("Test.txt")))){
+			System.out.println("Чтение файла Test.txt");
 			String c="";
 			while(true) {
 				c=buf.readLine();
