@@ -13,13 +13,13 @@ class Testobs <T extends Double> {
 }
 
 public class Obs_one {
-
-	public static void main(String[] args) {
+	
+		public static void main(String[] args) {
 		try(Scanner abc = new Scanner(System.in)){;
-		System.out.print("Нахождение квардатного корня числа. Введите число: ");
-		double x = abc.nextDouble();
-		Testobs<Double> ts = new Testobs<Double>(x);
-		System.out.println("sqrt("+x +") = " +ts.meth());
+			System.out.print("Нахождение квардатного корня числа. Введите число: ");
+			double x = abc.nextDouble();
+			Testobs<Double> ts = new Testobs<Double>(x);
+			System.out.println("sqrt("+x +") = " +ts.meth());
 		}
 		catch(Exception exp){
 			exp.printStackTrace();

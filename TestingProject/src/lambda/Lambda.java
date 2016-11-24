@@ -11,10 +11,10 @@ public class Lambda {
 	static String str (Lam<String> sf){
 		return sf.lam1("Тестовая строка");
 	}
-	public static void main(String[] args) {
+	public static void main(String s[]) {
 		System.out.println(lol(n -> Math.sqrt(n)));
 		System.out.println(str(n -> n.toUpperCase()));
-
+		//short b = 3;
 	}
 
 }
