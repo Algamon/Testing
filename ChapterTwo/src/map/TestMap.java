@@ -3,7 +3,7 @@ package map;
 import java.util.*;
 
 public class TestMap {
-	static String a;
+
 	public static void main(String[] args) {
 		//test HashMap
 		HashMap<String,Double> money = new HashMap<>();
@@ -42,7 +42,7 @@ public class TestMap {
 		TreeMap<Integer,String> lam = new TreeMap<>((a,b)->a.compareTo(b));
 		lam.putAll(db);
 		System.out.println(lam);
-		System.out.println(a);
+
 	}
 	
 }
