@@ -42,6 +42,7 @@ public class TestMap {
 		TreeMap<Integer,String> lam = new TreeMap<>((a,b)->a.compareTo(b));
 		lam.putAll(db);
 		System.out.println(lam);
+		System.out.println(010);
 
 	}
 	
