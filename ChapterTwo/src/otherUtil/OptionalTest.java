@@ -10,6 +10,7 @@ public class OptionalTest {
 		System.out.println(hasValue.orElse("default"));
 		System.out.println(noValue.orElse("default"));
 
+
 	}
 
 }
