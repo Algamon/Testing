@@ -18,7 +18,6 @@ public class DateAndCalendar {
 		TimeZone tz = TimeZone.getDefault();
 		System.out.println(tz);
 		System.out.println(Locale.getDefault());
-		System
 	}
 
 }
