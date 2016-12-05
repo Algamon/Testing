@@ -36,6 +36,8 @@ public class Lang {
 			e.printStackTrace();
 		}*/
 		System.out.println(System.currentTimeMillis());
+
+		
 	}
 
 }
