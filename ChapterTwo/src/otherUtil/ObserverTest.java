@@ -3,7 +3,9 @@ package otherUtil;
 import java.util.*;
 
 class Watcher implements Observer{
-	public void update(Observable a,Object b){
+
+	@Override
+    public void update(Observable a, Object b){
 		System.out.println(((Integer) b).intValue());
 	}
 }

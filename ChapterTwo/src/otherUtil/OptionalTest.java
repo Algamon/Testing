@@ -9,7 +9,7 @@ public class OptionalTest {
 		Optional<String> noValue = Optional.empty();
 		System.out.println(hasValue.orElse("default"));
 		System.out.println(noValue.orElse("default"));
-
+        System.out.println("One Two Free");
 
 	}
 
