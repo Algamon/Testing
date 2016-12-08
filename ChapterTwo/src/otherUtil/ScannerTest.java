@@ -1,5 +1,6 @@
 package otherUtil;
 
+import java.util.Formatter;
 import java.util.Scanner;
 
 public class ScannerTest {
@@ -21,6 +22,9 @@ public class ScannerTest {
 			}
 			System.out.println("Avg value: "+value/k);
 		}
+		Formatter c = new Formatter();
+		Integer i = 1;
+		c.format("%1%b",i);
 	}
 
 }
