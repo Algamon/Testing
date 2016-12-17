@@ -18,6 +18,6 @@ public class BitsSetTest {
 		System.out.println(bit);
 		bit.andNot(bit2);
 		System.out.println(bit);
-	}
+    }
 
 }
