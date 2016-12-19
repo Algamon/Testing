@@ -37,5 +37,6 @@ public class TestFrameTwo extends Frame{
         TestFrameTwo frame = new TestFrameTwo("TestFrameTwo");
         frame.setSize(new Dimension(500,500));
         frame.setVisible(true);
+
     }
 }
